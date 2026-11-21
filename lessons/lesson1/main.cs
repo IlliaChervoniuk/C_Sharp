@@ -1,14 +1,13 @@
-namespace Csharp.p58
+namespace C_Sharp_P58                  // простори імен групують класи
 {
-    internal class Program
-    {
-        static void Main(string[] args)
+    internal class Program             // весь код групується у класах (методах)
+    {                                  // поза класами код не створюється
+        static void Main(string[] args) // першим запускається даний метод
         {
             Console.WriteLine("Hello, World!");
         }
     }
 }
-
 
 /*
  Платформа Microsoft .NET та мова програмування C#
