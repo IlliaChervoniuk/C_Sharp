@@ -20,11 +20,24 @@ namespace Csharp.p58
    платформою, яка "на льоту" (just in time, JIT) докомпільовує його
    до процесорного коду, який реально виконується.
    
-                          .NET
-   C# (text) --> MSIL --> JIT ---> CPU
-   
+   JScript------\        |    |
+   VisualBasics--\       |.NET|
+   C# (text) --> MSIL -->|JIT |---> CPU
+   F# ----------/        |CLR |
+   C++.NET ----/         |    |
+                        Managed     Unmanaged
+        
    Така схема виконання дозволяє зробити мову програмування придатною 
    для різних операційних платформ (Windows, Linux, Mac, Android тощо) 
    для яких випускаються різні збірки .NET, які приймають однакові програми.
    
+   IDE = Integrated Development Equipment 
+        Microsoft Visual Studio
+        JetBrains Rider
+        Mono
+        VS Code 
+
+    CLR - Comon Language Runtime
+    JIT - Just In Time Compiler - IL to CPU
+    FCL - Framework Class Library  
 */
